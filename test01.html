@@ -46,18 +46,22 @@
                 console.log(this);
 
             }
-            mew(a) {
+            mew(count) {
                 //class 안에서의 함수는 메소드임
-                console.log(a)
+                for (var i = 0; i < count; i++) {
+                    console.log(this.name + ": " + "응애!")
+                }
             }
             eat() {
-                console.log("처갓집슈프림 치킨")
+                console.log(this.name + ": " + "처갓집슈프림 치킨")
             }
         }
 
         let cat1 = new Cat('강초', 1); //객체 만들기
         let cat2 = new Cat("고타", 2);
 
+        cat1.mew();
+        cat2.mew();
     </script>
 
 
