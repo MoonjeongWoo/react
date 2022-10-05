@@ -38,10 +38,10 @@
 
         //////////////////////////////////////////////////////////
         /*클래스 만들기*/
-        class Cat {   //클래스 만들기 
+        class Cat {   //클래스 만들기 (첫글자는 무조건 대문자 안쓰면 욕먹음)
             constructor(name_input, age_input) { //constructor => 생성자임
                 console.log(this)
-                this.name = name_input; //
+                this.name = name_input; //this는 클래스 내에서 어디서든 사용가능
                 this.age = age_input;
                 console.log(this);
 
@@ -57,11 +57,11 @@
             }
         }
 
-        let cat1 = new Cat('강초', 1); //객체 만들기
+        let cat1 = new Cat('강초', 1); //객체 만들기 cat1,cat2가 객체임
         let cat2 = new Cat("고타", 2);
 
-        cat1.mew();
-        cat2.mew();
+        cat1.mew(5);
+        cat2.mew(4);
     </script>
 
 
