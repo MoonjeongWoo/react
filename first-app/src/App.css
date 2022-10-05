@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -35,4 +35,90 @@
   to {
     transform: rotate(360deg);
   }
+}
+.test{
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  font-size: 45px;
+  background-color: beige;
+  color: orange;
+  margin-left: 30%;
+}
+.test02{
+  margin-left: 35%;
+}
+.flex{
+  display: flex;
+  z-index: 9999999;
+}
+.eye{
+  background-color: white;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.eye div{
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  position: relative;
+  top: 14px;
+}
+.red{
+  background-color: red;
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+}
+.orange{
+   height: 90px;
+  width: 90px;
+background-color: orange;
+  border-radius: 90px;
+  position: relative;
+  right: 25px;
+}
+.yellow{
+  position: relative;
+  right: 35px;
+   height: 90px;
+  width: 90px;
+background-color:yellow;
+  border-radius: 90px;
+}
+.green{
+  position: relative;
+  right: 55px;
+   height: 90px;
+  width: 90px;
+background-color: green;
+  border-radius: 90px;
+}
+.blue{
+  position: relative;
+  right: 85px;
+   height: 90px;
+  width: 90px;
+background-color: blue;
+  border-radius: 90px;
+}
+.navy{
+  position: relative;
+  right: 95px;
+   height: 90px;
+  width: 90px;
+background-color: navy;
+  border-radius: 90px;
+}
+.purple{
+  position: relative;
+  right: 115px;
+   height: 90px;
+  width: 90px;
+background-color: purple;
+  border-radius: 90px;
 }
