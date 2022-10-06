@@ -32,7 +32,7 @@ function App() {
         <label>비밀번호 :</label>
         <input></input>
       </div> */}
-      <div className="flex">
+      {/* <div className="flex">
         <div className="red">
           <div className="eye">
             <div></div>
@@ -44,7 +44,7 @@ function App() {
         <div className="blue"></div>
         <div className="navy"></div>
         <div className="purple"></div>
-      </div>
+      </div> */}
     </>
   );
 }
