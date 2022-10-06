@@ -148,3 +148,36 @@ background-color: purple;
   background-color: aqua;
   cursor: pointer;
 }
+.background{
+  background-color: beige;
+  width: 500px;
+  height: 500px;
+}
+.title{
+  text-align: center;
+  font-size: 25px;
+  color: tomato;
+}
+.picture{
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.sub{
+  text-align: center;
+  font-size: 25px;
+}
+.name{
+  text-align: center;
+  font-size: 25px;
+}
+.price{
+  text-align: center;
+  font-size: 25px;
+}
+.tag{
+  text-align: center;
+  font-size: 25px;
+}
