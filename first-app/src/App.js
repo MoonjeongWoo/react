@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import FunctionComponent from "./FunctionComponent";
 
 function App() {
   // let animal;
@@ -45,6 +46,7 @@ function App() {
         <div className="navy"></div>
         <div className="purple"></div>
       </div> */}
+      <FunctionComponent></FunctionComponent>
     </>
   );
 }
