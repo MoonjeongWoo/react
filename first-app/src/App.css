@@ -181,3 +181,10 @@ background-color: purple;
   text-align: center;
   font-size: 25px;
 }
+.merong{
+  color: red;
+}
+.not{
+  display: block;
+  transition: all 5s slow;
+}
