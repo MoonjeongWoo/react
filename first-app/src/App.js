@@ -1,31 +1,21 @@
 // import logo from "./logo.svg";
 import "./App.css";
-// import ClassComponent2 from "./ClassComponent2";
-// import FunctionComponent from "./FunctionComponent";
-// import ClassComponent from "./ClassComponent";
-// import Test from "./Test";
-// import Test2 from "./Test2";
-// import FuncComponent from "./FuncComponent";
-// import fisrtday from "./1day";
-import Food from "./food";
-// import FunctionComponent2 from "./FunctionComponent2";
-
+// import SayFunction from "./FunctionComponen4";
+// import ClassComponent3 from "./ClassComponent3";
+// import FunctionComponent3 from "./FunctionComponent3";
+// import ClassComponent4 from "./ClassComponent4";
+// import ClassComponent5 from "./ClassComponent5";
+// import ClassComponent6 from "./ClassComponent6";
+import Handler from "./ex/Handler_ex";
 function App() {
   return (
     <>
-      {/* <FunctionComponent title={aaa} content="내용"></FunctionComponent> */}
-      {/* <FunctionComponent></FunctionComponent>
-      <ClassComponent></ClassComponent> */}
-      {/* <Test></Test>
-      <Test2></Test2> */}
-      {/* <fisrtday></fisrtday> */}
-      {/* <FuncComponent title="제목" name="문정우"></FuncComponent>
-      <ClassComponent title="ccc"></ClassComponent>
-      <FunctionComponent title="1" name="문정우"></FunctionComponent> */}
-      {/* <ClassComponent></ClassComponent> */}
-      <Food></Food>
-      {/* <FunctionComponent2></FunctionComponent2> */}
-      {/* <ClassComponent2></ClassComponent2> */}
+      {/* <ClassComponent3></ClassComponent3> */}
+      {/* <FunctionComponent3></FunctionComponent3> */}
+      {/* <SayFunction></SayFunction> */}
+      {/* <ClassComponent4></ClassComponent4> */}
+      {/* <ClassComponent6></ClassComponent6> */}
+      <Handler></Handler>
     </>
   );
 }
