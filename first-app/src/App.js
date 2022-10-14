@@ -4,7 +4,7 @@ import Hooktest2 from "./Hooktest2";
 
 class App extends Component {
   render() {
-    return <Hooktest2></Hooktest2>;
+    return <></>;
   }
 }
 
