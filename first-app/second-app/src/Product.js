@@ -19,7 +19,7 @@ function Product() {
   return (
     <>
       <div style={{ width: "100%", height: "450px" }}>
-        <h1>{id}번 상품페이지 입니다</h1>
+        <h1>{id}번 상품페이지 입니다//</h1>
       </div>
       <button onClick={() => navigate(-1)}>뒤로버튼</button>
       <button onClick={() => navigate(1)}>앞으로 가기 버튼</button>
